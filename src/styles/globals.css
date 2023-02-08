@@ -1,0 +1,69 @@
+:root {
+
+
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../../public/Alexandria-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Adobe';
+  src: url('../../public/AdobeHandwriting-Ernie.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  overflow-x: hidden;
+}
+html,
+body {
+  max-width: 100%;
+  display: flex;
+  font-family: 'alexandria';
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+
+}
+ 
+body::-webkit-scrollbar-thumb {
+  border-radius: 0px 0px 12px 12px;
+  background-color: #eb2273;
+}
+body{
+  width: 100%;
+  background-size: auto;
+
+  background-position: center;
+  scroll-behavior: smooth;
+  transition: all 500ms;
+  background-image: url('../../public/mainBg.webp');
+}
+
+#__next{
+  width: 100%;
+}
+
+a {
+  color: unset;
+text-decoration: none;
+
+}
+.no-scroll {
+  overflow: hidden!important;
+}

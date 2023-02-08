@@ -1,0 +1,339 @@
+.MainSectionDuvidas{
+    width: 100%;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainSectionDuvidasContainer{
+    max-width: 1350px;
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.headerModules{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.headerModules h2{
+    font-family: 'Alexandria';
+    font-size: 80px;
+    line-height: 100%;
+    color: #eb2273;
+}
+.headerModules h3{
+    font-family: 'Alexandria';
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 100%;
+    color: #3e3a3b;
+}
+.myItems{
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    z-index: 2;
+}
+.borderAcordeon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 60%;
+   
+}
+
+.TitleAcorddeon{
+    border-radius: 30px 30px 0px 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ff984e;
+}
+.TitleAcorddeon h4{
+    margin-left:20px ;
+    font-size: 30px;
+    font-size: #302b2c;
+    font-family: 'Alexandria';
+}
+
+.Activeoption{
+    background-color: #302b2c;
+   
+    align-items: center;
+    display: flex;
+    padding: 12px;
+}
+.Activeoption h3{
+    color: white;
+    cursor: pointer;
+    width: 97%;
+    font-family: 'alexandria';
+}
+.Activeoption strong{
+    color: white;
+    font-family: 'Alexandria';
+
+    width: 3%;
+    font-size: 30px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.DesactiveOption{
+    padding: 12px;
+    text-align: justify;
+    background-color: #b6b6b6;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.DesactiveOption:hover{
+    background-color: #302b2c;
+    transition: all 0.5s;
+}
+.DesactiveOption:hover h3{
+    color: white;
+}
+.DesactiveOption:hover strong{
+    color: white;
+}
+
+
+.DesactiveOption h3{
+    width: 97%;
+    color: #302b2c;
+    font-family: 'alexandria';
+}
+.DesactiveOption strong{
+    color: #302b2c;
+    font-family: 'Alexandria';
+    width: 3%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ItemDuvia{
+    margin-bottom: 10px;
+}
+
+.Activeoption p{
+    width: 100%;
+    padding: 20px;
+
+}
+.TextHeredesativdo p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'alexandria';
+}
+.TextHere p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'alexandria';
+    
+}
+
+
+.convertDuvidas{
+    background-color: #eb2273;
+    height: 80px;
+    border-radius: 0px 0px 35px 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.convertDuvidas:hover{
+    transition: ease-in-out 0.5s;
+    background-color: #ff984e;
+}
+.convertDuvidas h4{
+    max-width: 90%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.convertDuvidasButtons{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.convertDuvidasButtons svg{
+    position: absolute;
+    width: 100%;
+}
+.convertDuvidasButtons{
+    color: #302b2c;
+}
+.convertDuvidasButtons h4{
+    color: white;
+    z-index: 2;
+}
+
+
+
+@media screen and (min-width:850px) and (max-width:1024px){
+    .headerModules{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+ 
+    .headerModules h2{
+        font-family: 'Alexandria';
+        font-size: 80px;
+        line-height: 100%;
+        text-align: center;
+        color: #eb2273;
+    }
+    .headerModules h3{
+        font-family: 'Alexandria';
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 100%;
+        color: #3e3a3b;
+    }
+    .convertDuvidasButtons{
+        color: #302b2c;
+        height: 100px;
+        width: 500px;
+    }
+}
+
+
+@media screen and (min-width:550px) and (max-width:850px){
+    
+    .headerModules{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .headerModules h2{
+        font-family: 'Alexandria';
+        font-size: 80px;
+        line-height: 100%;
+        text-align: center;
+        color: #eb2273;
+    }
+    .headerModules h3{
+        font-family: 'Alexandria';
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 100%;
+        color: #3e3a3b;
+    }
+    .convertDuvidasButtons{
+        color: #302b2c;
+        height: 100px;
+        width: 500px;
+    }
+    .borderAcordeon{
+        display: none;
+    }
+    .TitleAcorddeon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .TitleAcorddeon h4{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:550px){
+    .Activeoption strong{
+        display: none;
+    }
+    .DesactiveOption strong{
+        display: none;
+    }
+    .headerModules{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .headerModules h2{
+        font-family: 'Alexandria';
+        font-size: 14vw;
+        line-height: 100%;
+        text-align: center;
+        color: #eb2273;
+    }
+    .headerModules h3{
+        font-family: 'Alexandria';
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 100%;
+        color: #3e3a3b;
+    }
+    .convertDuvidasButtons{
+        color: #302b2c;
+        height: 150px;
+        width: 80vw;
+    }
+    .convertDuvidasButtons{
+        color: #302b2c;
+        height: 100px;
+        width: 90vw;
+    }
+    .borderAcordeon{
+        display: none;
+    }
+    .myItems{
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        z-index: 2;
+    }
+    .TitleAcorddeon h4 {
+        margin-left: 0px;
+        line-height: 100%;
+        max-width: 90%;
+        text-align: center;
+        font-size: 30px;
+        font-size: #302b2c;
+        font-family: 'Alexandria';
+    }
+    .TitleAcorddeon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+

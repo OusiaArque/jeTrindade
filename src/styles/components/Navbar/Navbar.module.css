@@ -1,0 +1,412 @@
+.mainNav{
+    background-image: url('https://baldoo.com.br/API/imageAPI/jessica/navbarbg.webp');
+    background-size: auto;
+    background-position-x:center;
+    background-position-y:top;
+    background-repeat: repeat-x;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerNavbar{
+    max-width:1350px;
+    height: 550px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.academyLogo{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    border-radius: 0px 0px 50% 50%;
+    background-color:#eb2273 ;
+}
+
+
+
+.containerNavbar ul{
+    display: flex;
+    width: 100%;
+    height:70%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.MainMenu{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content: center;
+}
+.MainMenu{
+    margin-top: 5%;
+}
+.MainMenu li{
+    list-style: none;
+    margin-left:30px;
+}
+
+.TitleNavbar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align:center ;
+}
+.imgGoconvert{
+    position: absolute;
+    right: -20%;
+    top: 20%;
+    animation: setaBounce 3s infinite;
+
+}
+@keyframes setaBounce {
+    0%{
+        top: 20%;
+    }
+    50%{
+        top: 10%;
+    }
+    100%{
+        top: 20%;
+    }
+}
+.MainTitle{
+    font-family: 'Alexandria';
+    color: #302b2c;
+    font-size:90px;
+    display: flex;
+    flex-direction: column;
+    line-height: 100%;
+}
+.MainTitle span{
+    color: white;
+    font-size: 60px;
+    line-height: 100%;
+}
+.MainTitle strong{
+    font-weight: lighter;
+    font-size: 40px;
+ 
+    line-height: 100%;
+}
+
+.imgGoconvert{
+    position: absolute;
+}
+
+
+
+.mymodalmenu{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+
+    background-image: url('../../../../public/mainBg.webp');
+    background-color: white;
+}
+.MenuHamb{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.MenuHamb:hover .hambBorder{
+    transform: rotate(-180deg);
+    transition: all 500ms ease-in-out;
+}
+.MenuHamb:hover .hamMenu{
+    transform: rotate(180deg);
+    transition: all 500ms ease-in-out;
+}
+.hambBorder{
+    transition: all 500ms ease-in-out;
+    position: absolute;
+}
+.hamMenu{
+    transition: all 500ms ease-in-out;
+}
+
+@media screen and (min-width:1024px) and (max-width:1350px) {
+    .mainNav{
+        background-size: auto;
+    }
+
+    .containerNavbar ul{
+        display: flex;
+        width: 100%;
+        height:80%;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .MainTitle{
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size:80px;
+        display: flex;
+        flex-direction: column;
+        line-height: 100%;
+    }
+    .MainTitle span{
+        color: white;
+        font-size: 50px;
+        line-height: 100%;
+    }
+    .MainTitle strong{
+        font-weight: lighter;
+        font-size: 30px;
+     
+        line-height: 100%;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1024px) {
+    .mainNav{
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/navbarbg.webp');
+        background-size: auto;
+        background-position-x:center;
+        background-position-y:top;
+        background-repeat: repeat-x;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }  
+    .mainNav{
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/navbarbg.webp');
+        background-size:cover;
+        background-position-x:center;
+        background-position-y:top;
+        background-repeat: repeat-x;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }    
+    .academyLogo{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        border-radius: 0px 0px 50% 50%;
+        background-color:#eb2273 ;
+    }
+    .academyLogo img{
+        width: 45%;
+    }
+
+    .MainTitle{
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size:10vw;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        line-height: 100%;
+    }
+    .MainTitle span{
+        color: white;
+        font-size: 6vw;
+        line-height: 100%;
+    }
+    .MainTitle strong{
+        font-weight: lighter;
+        font-size: 3vw;
+     
+        line-height: 100%;
+    }
+    .containerNavbar{
+        max-width:1350px;
+        height: 550px;
+        width: 90%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .containerNavbar ul{
+        display: flex;
+        width: 100%;
+        height:70%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .imgGoconvert{
+        width: 10vw;
+        position: absolute;
+        right: -15%;
+        top: 20%;
+    } 
+}
+
+@media screen and (min-width:550px) and (max-width:850px) {
+    .MainMenu{
+        
+    }
+    .MainMenu li{
+        display: none;
+    }
+    .MainMenu li:last-child{
+        display: flex;
+    }
+    .academyLogo{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        border-radius: 0px 0px 50% 50%;
+        background-color:#eb2273 ;
+    }
+    .academyLogo img{
+        width: 50%;
+    }
+    .containerNavbar{
+        max-width:1350px;
+        height: 950px;
+        width: 90%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        }
+        .mainNav{
+            height: 600px;
+        }
+        .MainTitle{
+            font-family: 'Alexandria';
+            color: #302b2c;
+            font-size:12vw;
+            display: flex;
+            margin-top: 50px;
+            flex-direction: column;
+            line-height: 100%;
+        }
+        .MainTitle span{
+            color: white;
+            font-size: 12vw;
+            line-height: 100%;
+        }
+        .MainTitle strong{
+            font-weight: lighter;
+            font-size: 6vw;
+         
+            line-height: 100%;
+        }
+
+}
+
+@media screen and (min-width:0px) and (max-width:550px) {
+    .mainNav{
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/navbarbg.webp');
+        background-size:cover;
+        background-position-x:center;
+        background-position-y:top;
+        background-repeat: repeat-x;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }    
+    .academyLogo{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        border-radius: 0px 0px 50% 50%;
+        background-color:#eb2273 ;
+    }
+    .academyLogo img{
+        width: 45%;
+    }
+    .MainMenu li{
+        display: none;
+    }
+    .MainMenu li:last-child{
+        display: flex;
+    }
+
+    .MainTitle{
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size:12vw;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        line-height: 100%;
+    }
+    .MainTitle span{
+        color: white;
+        font-size: 12vw;
+        line-height: 100%;
+    }
+    .MainTitle strong{
+        font-weight: lighter;
+        font-size: 6vw;
+     
+        line-height: 100%;
+    }
+    .containerNavbar{
+    max-width:1350px;
+    height: 450px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+    .containerNavbar ul{
+        display: flex;
+        width: 100%;
+        height:90%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .imgGoconvert{
+        width: 15vw;
+        position: absolute;
+        right: -15%;
+        top: 20%;
+    }
+}

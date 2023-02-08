@@ -1,0 +1,222 @@
+.SobreMain{
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-image: url('https://baldoo.com.br/API/imageAPI/jessica/aboutcurso.webp');
+}
+.SobreMainContainer{
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1350px;
+}
+.textSobre{
+    text-align: end;
+    width: 50%;
+}
+.textSobre h3{
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 100%;
+}
+.textSobre h2{
+    color: #3e3a3b;
+    font-size:6vw;
+    line-height: 100%;
+}
+
+.textSobre p{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Alexandria';
+}
+
+@media screen and (min-width:1350px){
+    .SobreMain{
+        width: 100%;
+        background-size: auto;
+        background-position: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/aboutcurso.webp');
+    }
+    .textSobre h3{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 100%;
+    }
+    .textSobre h2{
+        font-size: 80px;
+        line-height: 100%;
+        color: #3e3a3b;
+    }
+     .textSobre p{
+        color: white;
+        font-size: 20px;
+        font-family: 'Alexandria';
+    }
+    
+}
+.SobreMainResponsive{
+    display:none ;
+}
+@media screen and (min-width:850px) and (max-width:1024px){
+    .SobreMain{
+        display: none;
+        width: 100%;
+
+
+    }
+    .SobreMainResponsive{
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/bgaboutMain.webp');
+        background-size: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SobreMainResponsiveCotainer{
+        width: 90%;
+        height: 1650px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .SobreMainResponsiveCotainer h3{
+        margin-top: 300px;
+        color: white;
+        font-size: 60px;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer h2{
+        color:#302b2c;
+        font-size: 90px;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer p{
+        color: white;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .responsiveTeacher{
+        position: absolute;
+        bottom: 0;
+    }
+    
+}
+
+
+@media screen and (min-width:550px) and (max-width:850px){
+    .SobreMain{
+        display: none;
+        width: 100%;
+
+
+    }
+    .SobreMainResponsive{
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/bgaboutMain.webp');
+        background-size: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SobreMainResponsiveCotainer{
+        width: 90%;
+        height: 1650px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .SobreMainResponsiveCotainer h3{
+        margin-top: 300px;
+        color: white;
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer h2{
+        color:#302b2c;
+        font-size: 70px;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer p{
+        color: white;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .responsiveTeacher{
+        position: absolute;
+        bottom: 0;
+        max-width: 90%;
+    }
+      
+}
+@media screen and (min-width:280px) and (max-width:550px){
+    .SobreMain{
+        display: none;
+        width: 100%;
+
+
+    }
+    .SobreMainResponsive{
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/bgaboutMain.webp');
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .SobreMainResponsiveCotainer{
+        width: 90%;
+        height: 300vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .SobreMainResponsiveCotainer h3{
+        margin-top: 60vw;
+        color: white;
+        font-size: 8vw;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer h2{
+        color:#302b2c;
+        font-size: 12vw;
+        line-height: 100%;
+    }
+    .SobreMainResponsiveCotainer p{
+        color: white;
+        font-size: 5vw;
+        text-align: justify;
+    }
+    .responsiveTeacher{
+        position: absolute;
+        bottom: 0;
+        max-width: 90%;
+    }
+      
+}

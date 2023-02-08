@@ -1,0 +1,279 @@
+.mainConvert{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index:1;
+    margin-top: -300px;
+    justify-content: center;
+}
+.mainConvertContainer{
+    max-width: 1350px;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+.MainConverth1{
+    width: 50%;
+    
+    text-align: center;
+}
+.MainConverth1 h1{
+    display: flex;
+    font-family: 'Alexandria';
+    color: #302b2c;
+    font-size: 45px;
+    flex-direction: column;
+}
+.MainConverth1 h1 span{
+    line-height: 100%;
+    font-size: 40px;
+    font-family: 'Alexandria';
+    font-weight: lighter;
+}
+.MainConverth1 h1 span strong{
+    color: #eb2273;
+    font-size: 50px;
+}
+.mainConvertContainer img{
+
+    width: 600px;
+}
+
+.MainButton{
+    position: relative;
+    width: 90%;
+    max-width: 430px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainButton h3{
+    position: absolute;
+    width: 90%;
+    color: #302b2c;
+    font-family: 'Alexandria';
+    font-size: 1rem;
+}
+@media screen and (min-width:1024px) and (max-width:1250px){
+    .mainConvertContainer img{
+
+        width: 450px;
+    }
+    .MainConverth1 h1{
+        margin-top: 80px;
+        display: flex;
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size: 35px;
+        flex-direction: column;
+    }
+    .MainConverth1 h1 span{
+        line-height: 100%;  
+        font-size: 30px;
+        font-family: 'Alexandria';
+        font-weight: lighter;
+    }
+    .MainConverth1 h1 span strong{
+        color: #eb2273;
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (min-width:850px) and (max-width:1024px){
+    .mainConvert{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    .mainConvertContainer{
+        max-width: 1350px;
+        width: 90%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .MainConverth1{
+        width: 80%;
+        text-align: center;
+    }
+    .MainConverth1 h1{
+        display: flex;
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size: 45px;
+        flex-direction: column;
+    }
+    .MainConverth1 h1 span{
+        line-height: 100%;
+        font-size: 40px;
+        font-family: 'Alexandria';
+        font-weight:lighter;
+    }
+    .MainConverth1 h1 span strong{
+        color: #eb2273;
+        font-size: 50px;
+    }
+    .mainConvertContainer img{
+        margin-top: 100px;
+        width: 600px;
+    }
+
+    .MainButton{
+        position: relative;
+        width: 90%;
+        max-width: 430px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .MainButton svg{
+        width: 100%;
+    }
+    .MainButton h3{
+        position: absolute;
+        width: 90%;
+        color: #302b2c;
+        font-family: 'Alexandria';
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:550px) and (max-width:850px){
+    .mainConvert{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .mainConvertContainer{
+        max-width: 1350px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .MainConverth1{
+        width: 90%;
+        text-align: center;
+    }
+    .MainConverth1 h1{
+        display: flex;
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size: 40px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .MainConverth1 h1 span{
+        line-height: 100%;
+        font-size: 30px;
+        font-family: 'Alexandria';
+        font-weight:lighter;
+    }
+    .MainConverth1 h1 span strong{
+        color: #eb2273;
+        font-size: 40px;
+    }
+    .mainConvertContainer img{
+        margin-top: 100px;
+        width: 400px;
+    }
+
+    .MainButton{
+        position: relative;
+        width: 90%;
+        max-width: 430px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .MainButton svg{
+        width: 100%;
+    }
+    .MainButton h3{
+        position: absolute;
+        width: 90%;
+        color: #302b2c;
+        font-family: 'Alexandria';
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:0px) and (max-width:550px){
+    .mainConvert{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .mainConvertContainer{
+        max-width: 1350px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .MainConverth1{
+        width: 90%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .MainConverth1 h1{
+        display: flex;
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-size: 8vw;
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .MainConverth1 h1 span{
+        line-height: 100%;
+        font-size: 6vw;
+        font-family: 'Alexandria';
+        font-weight:lighter;
+    }
+    .MainConverth1 h1 span strong{
+        color: #eb2273;
+        font-size: 7vw;
+    }
+    .mainConvertContainer img{
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .MainButton{
+        position: relative;
+        width: 90%;
+        max-width: 430px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .MainButton svg{
+        width: 100%;
+    }
+    .MainButton h3{
+        position: absolute;
+        width: 90%;
+        color: #302b2c;
+        font-family: 'Alexandria';
+        font-size: 3vw;
+    }
+}

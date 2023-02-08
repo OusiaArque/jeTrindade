@@ -1,0 +1,137 @@
+.mainFooter{
+    width: 100%;
+    background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+    background-size:cover;
+    background-repeat: repeat-x;
+    background-position-y:5px ;
+    display: flex;
+    align-items: center;
+    height: 650px;
+    justify-content: center;
+}
+.FooterContainer{
+    max-width: 1350px;
+    width: 90%;
+    height: 40%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.FooterContainer ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.posfooter{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DivOne{
+    display: flex;
+}
+.LinksFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    justify-content: space-evenly;
+}
+
+.posfooter h6{
+    margin-top: 20px;
+    font-size: 25px;
+    max-width: 90%;
+    margin-bottom: 60px;
+    color:#ea1e77;
+    text-align: center;
+    font-weight: bold;
+}
+
+.linksForFooter li h6{
+    font-size: 25px; 
+    text-align: right;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.linksForFooter li h6 span{
+
+    font-weight: bolder;
+
+}
+
+.JeconvertFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.JeconvertFooter h3 {
+   color: #302b2c;
+   line-height: 100%;
+   font-size: 60px;
+}
+.JeconvertFooter h3 span{
+    color: #ea1e77;
+}
+.JeconvertFooter strong{
+    color: #ff984e;
+    line-height: 100%;
+    font-family: 'Adobe';
+    font-size: 100px;
+}
+@media screen and (min-width:0px) and (max-width:1024px){
+    .mainFooter{
+        width: 100%;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+        background-size:cover;
+        background-repeat: repeat-x;
+        background-position-y:5px ;
+        display: flex;
+        align-items: center;
+        height: 650px;
+        justify-content: center;
+    }
+    .FooterContainer ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .linksForFooter{
+        display: none;
+    }
+    .JeconvertFooter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .JeconvertFooter h3 {
+       color: #302b2c;
+       line-height: 100%;
+       font-size: 7vw;
+    }
+    .JeconvertFooter h3 span{
+        color: #ea1e77;
+    }
+    .JeconvertFooter strong{
+        color: #ff984e;
+        line-height: 100%;
+        font-family: 'Adobe';
+        margin-top: 10px;
+        font-size: 12vw;
+    }
+}

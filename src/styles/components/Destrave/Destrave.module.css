@@ -1,0 +1,163 @@
+.DestraveSectionMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.DestraveSectionMainContainer{
+    width: 90%;
+    max-width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.DestraveSectionMainContainer h5{
+    color: #ff984e;
+    font-size: 150px;
+}
+
+.DestraveSectionMainContainer h4{
+    color: #302b2c;
+    font-size: 25px;
+    font-weight: normal;
+}
+.DestraveSectionMainContainer h4 span{
+    color: #eb2273;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.DestraveSectionMainContainer h3{
+    font-family: 'Adobe';
+    color: #eb2273;
+    font-size: 70px;
+}
+
+.cardsIconts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardsIcontsContainer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1350px;
+}
+.cardsIcontsContainer figure{
+    width: 280px;
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cardsIcontsContainer figure svg{
+    height: 120px;
+    margin-bottom: 15px;
+}
+.cardsIcontsContainer figure h3{
+    color: #eb2273;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.cardsIcontsContainer figure P{
+    height: 90px;
+}
+
+
+.DestraveConvertSectionMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat-x;
+    background-size:auto;
+    background-position: center;
+    background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+}
+
+.DestraveConvertSectionMain:hover h2{
+    color: white;
+}
+.DestraveConvertSectionMainContainer{
+    margin-top: 150px;
+    text-align: center;
+
+    margin-bottom: 150px;
+}
+.DestraveConvertSectionMainContainer h3{
+    color: #eb2273;
+    font-size: 50px;
+    line-height: 100%;
+}
+.DestraveConvertSectionMainContainer h2{
+    color: #302b2c;
+    line-height: 100%;
+    font-size: 70px;
+}
+
+
+@media  screen and (min-width:280px) and (max-width:600px) {
+    .DestraveConvertSectionMain{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: repeat-x;
+        background-size:200%;
+        background-position: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+    }
+    .DestraveConvertSectionMainContainer h3{
+        color: #eb2273;
+        font-size: 7vw;
+        line-height: 100%;
+    }
+    .DestraveConvertSectionMainContainer h2{
+        color: #302b2c;
+        line-height: 100%;
+        font-size: 8vw;
+    }
+    .DestraveConvertSectionMainContainer{
+        margin-top: 100px;
+        text-align: center;
+    
+        margin-bottom: 100px;
+    }
+
+
+
+
+    
+        .DestraveSectionMainContainer h5{
+            color: #ff984e;
+            font-size: 22vw;
+        }
+
+        .DestraveSectionMainContainer h4{
+            color: #302b2c;
+            font-size: 4vw;
+            max-width: 90%;
+            text-align: center;
+            font-weight: normal;
+        }
+        .DestraveSectionMainContainer h4 span{
+            color: #eb2273;
+            font-size: 4vw;
+            font-weight: bolder;
+        }
+        .DestraveSectionMainContainer h3{
+            font-family: 'Adobe';
+            color: #eb2273;
+            font-size: 13vw;
+        }
+
+}
