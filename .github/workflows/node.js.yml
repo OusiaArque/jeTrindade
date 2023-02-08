@@ -1,5 +1,4 @@
-
-name: deploy build initial
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -9,19 +8,21 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16.x'
-      - name: Build web-app
-        run: |
-          npm ci
-          npm run build
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: ProductionBuildMain
-          publish_dir: ./out/
-          commit_message: ${{ github.event.head_commit.message }}
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build and export Next.js site
+      run: |
+        npm ci
+        npm run build
+
+      env:
+        NODE_ENV: production
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
