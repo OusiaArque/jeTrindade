@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/',
+  assetPrefix: '/jeTrindade',
 }
 
 module.exports = nextConfig
