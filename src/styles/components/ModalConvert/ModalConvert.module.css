@@ -1,0 +1,465 @@
+.mainConvertModal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: 0;
+    z-index: 99999;
+}
+.mainConvertModalContainer{
+    width: 90%;
+    max-width: 1350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainConvertModal::-webkit-scrollbar {
+    width:5px;
+    background-color: #F5F5F5;
+  
+  }
+   
+.mainConvertModal::-webkit-scrollbar-thumb {
+    border-radius: 0px 0px 12px 12px;
+    background-color: #eb2273;
+  }
+
+.headerModalForm{
+    width: 100%;
+    display: flex;
+    max-width: 1350px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+.contentForm{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.contentForm form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contentForm form div{
+    flex-direction: column;
+    display: flex;
+}
+
+
+.contentForm H2{
+    max-width: 90%;
+    color:#eb2273;
+    max-width: 500px;
+    text-align: center;
+    font-size: 55px;
+}
+.contentForm p{
+    font-weight: 250;
+    font-size: 30px;
+    max-width: 580px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+.contentForm p span{
+    color: #eb2273;
+    font-size:30px;
+    font-weight: bolder;
+
+}
+
+
+.contentForm form{
+    width: 80%;
+}
+.contentForm form div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    width: 500px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.contentForm form div svg{
+    position: absolute;
+}
+
+.contentForm form input{
+    border: none;
+    z-index: 9999;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Alexandria';
+  
+    outline: none;
+    padding-left: 30px;
+    text-align: center;
+    padding-right: 30px;
+    width: 500px;
+    background-color: unset;
+    height: 60px;
+ 
+
+}
+.contentForm form input::placeholder{
+    text-align: center;
+    font-family: 'Alexandria';
+    color: #302b2c;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.contentForm form input:focus::placeholder{
+    color: #5b5b5b;
+    transition: all 500ms;
+}
+.twerkLevel{
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    border: none;
+    color: #302b2c;
+    font-size: 20px;
+    font-family: 'Alexandria';
+}
+
+
+.twerkLevel option{
+    text-align: center;
+    width: 100%;
+    display: flex;
+
+    z-index: 9999;
+    text-align: center;
+    font-family: 'alexandria';
+    color: #302b2c;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 20px;
+    border: unset;
+}
+.twerkLevel option:disabled{
+    color: #302b2c;
+    font-weight: bolder;
+    font-size: 20px;    
+    font-family: 'alexandria';
+}
+
+.contentForm form textarea::placeholder{
+
+    font-size: 20px;
+    color: #302b2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-family: 'Alexandria';
+}
+
+.contentForm form textarea:focus::placeholder{
+    color: #5b5b5b;
+}
+.textAreaDiv{
+    height: 160px;
+    position: relative;
+    border-bottom: 0px;
+    }
+
+.contentForm form textarea{
+    resize: none;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 20px;
+    z-index: 9;
+
+    height: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: unset;
+    color: #302b2c;
+    font-family: 'Alexandria';
+}
+
+.contentForm form select{
+    background-color: unset;
+    padding-left: 30px;
+    font-family: 'Alexandria';
+    width: 90%;
+    z-index: 10;
+    padding-right: 30px;
+    font-weight: bolder;
+    z-index: 9999;
+    outline: none;
+
+}
+.closeModal{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closehambBorder{
+    position: absolute;
+    transition: all 500ms ease-in-out;
+}
+
+.closehambBorder:hover{
+    transform: rotate(-180deg);
+    
+}
+.closehambBordercenter{
+    width: 100%;
+}
+.closehambBordercenter:hover{
+    transform: rotate(180deg);
+    transition: all 500ms ease-in-out;
+}
+.svgHereResp{
+    display: none;
+}
+
+
+
+
+.sendForm{
+    width: 365px;
+    height: 60px;
+    cursor: pointer;
+    margin-bottom: 160px;
+    position: relative;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+.sendForm svg{
+    position: absolute;
+}
+.sendForm h3{
+    z-index:2;
+    font-size: 20px;
+    font-family: 'alexandria';
+    font-weight: bolder;
+    color: white;
+}
+
+.sendForm:hover h3{
+    color: #302b2c;
+}
+
+@media screen and (min-width:280px) and (max-width:550px){
+
+
+ 
+    
+
+    .closehambBordercenter{
+        width: 100%;
+    }
+    .headerModalForm{
+        width: 100%;
+        display: flex;
+        max-width: 1350px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: 60px;
+    }
+    .contentForm{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contentForm form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contentForm form div{
+        flex-direction: column;
+        display: flex;
+    }
+    
+    
+    .contentForm H2{
+        max-width: 90%;
+        color:#eb2273;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 45px;
+    }
+    .contentForm p{
+        font-weight: 250;
+        font-size: 25px;
+        max-width: 90%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .contentForm p span{
+        color: #eb2273;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    
+    .contentForm form{
+        width: 80%;
+    }
+    .contentForm form div{
+        width: 100%;
+        position: relative;
+        display: flex;
+        width: 280px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .contentForm form div svg{
+        position: absolute;
+        display: none;
+    }
+    
+    .contentForm form input{
+        border: none;
+        z-index: 9999;
+        border-radius: 30px;
+        font-size: 14px;
+        font-family: 'Alexandria';
+        outline: none;
+        padding-left: 15px;
+        text-align: center;
+        padding-right: 15px;
+        width: 280px;
+        background-color: unset;
+        height: 60px;
+     
+    
+    }
+    .contentForm form input::placeholder{
+        text-align: center;
+        font-family: 'Alexandria';
+        color: #302b2c;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    
+    .twerkLevel{
+        height:60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+        border: none;
+        color: #302b2c;
+        font-size: 20px;
+        font-family: 'Alexandria';
+    }
+    
+    
+    .twerkLevel option{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        z-index: 9999;
+       
+        text-align: center;
+        font-family: 'Alexandria';
+        color: #302b2c;
+       
+        font-size: 12px;
+        border: unset;
+    }
+    .twerkLevel option:disabled{
+        color: #302b2c;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 12px;    
+        font-family: 'Alexandria';
+    }
+    
+    .contentForm form textarea::placeholder{
+        font-weight: bolder;
+        font-size: 12px;
+        color: #302b2c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alexandria';
+    }
+    .textAreaDiv{
+        height: 160px;
+        position: relative;
+        border-bottom: 0px;
+        }
+    
+    .contentForm form textarea{
+        resize: none;
+        border: none;
+        width: 100%;
+        outline: none;
+        padding: 20px;
+        height: 100%;
+        text-align: justify;
+        font-weight: bolder;
+        font-size: 12px;
+        background-color: unset;
+        color: #302b2c;
+        font-family: 'Alexandria';
+    }
+    
+    .contentForm form select{
+        background-color: unset;
+        padding-left: 12px;
+        width: 90%;
+        font-size: 12px;
+        padding-right: 12px;
+        text-align: center;
+        display: flex;
+        font-weight: bolder;
+        z-index: 9999;
+        outline: none;
+        
+    
+    }
+    .closeModal{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .closehambBorder{
+        
+    }
+    .svgHereResp{
+        display: flex!important;
+    }
+}

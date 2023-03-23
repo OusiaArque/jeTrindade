@@ -39,6 +39,9 @@
 .DivOne{
     display: flex;
 }
+.DivOne svg:hover{
+    opacity: 0.8;
+}
 .LinksFooter{
     display: flex;
     flex-direction: column;
@@ -56,7 +59,9 @@
     text-align: center;
     font-weight: bold;
 }
-
+.posfooter img:hover{
+    opacity: 0.8;
+}
 .linksForFooter li h6{
     font-size: 25px; 
     text-align: right;
@@ -67,6 +72,10 @@
 
     font-weight: bolder;
 
+}
+
+.linksForFooter li h6:hover span{
+    color: white;
 }
 
 .JeconvertFooter{
@@ -133,5 +142,19 @@
         font-family: 'Adobe';
         margin-top: 10px;
         font-size: 12vw;
+    }
+}
+
+@media screen and (min-width:1014px){
+    .mainFooter{
+        width: 100%;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+        background-size:auto 100%;
+        background-repeat: repeat-x;
+        background-position-y:-10px ;
+        display: flex;
+        align-items: center;
+        height: 650px;
+        justify-content: center;
     }
 }

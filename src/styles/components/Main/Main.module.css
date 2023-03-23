@@ -17,21 +17,22 @@
 
 .MainConverth1{
     width: 50%;
-    
+    z-index: 99;
     text-align: center;
 }
 .MainConverth1 h1{
     display: flex;
     font-family: 'Alexandria';
     color: #302b2c;
-    font-size: 45px;
+    font-size: 42px;
     flex-direction: column;
 }
 .MainConverth1 h1 span{
     line-height: 100%;
     font-size: 40px;
+    
     font-family: 'Alexandria';
-    font-weight: lighter;
+    font-weight: 250;
 }
 .MainConverth1 h1 span strong{
     color: #eb2273;
@@ -75,7 +76,7 @@
         line-height: 100%;  
         font-size: 30px;
         font-family: 'Alexandria';
-        font-weight: lighter;
+
     }
     .MainConverth1 h1 span strong{
         color: #eb2273;
@@ -116,7 +117,7 @@
         line-height: 100%;
         font-size: 40px;
         font-family: 'Alexandria';
-        font-weight:lighter;
+    
     }
     .MainConverth1 h1 span strong{
         color: #eb2273;
@@ -180,7 +181,7 @@
         line-height: 100%;
         font-size: 30px;
         font-family: 'Alexandria';
-        font-weight:lighter;
+       
     }
     .MainConverth1 h1 span strong{
         color: #eb2273;
@@ -246,7 +247,7 @@
         line-height: 100%;
         font-size: 6vw;
         font-family: 'Alexandria';
-        font-weight:lighter;
+       
     }
     .MainConverth1 h1 span strong{
         color: #eb2273;

@@ -26,7 +26,11 @@ color: #302b2c;
 }
 .ProfessoraTitle h3{
     font-family: 'Adobe';
-    font-size: 8vw;
+    font-size: 7.5vw;
+    color: #302b2c;
+}
+.ProfessoraTitle h4{
+    font-size: 1.8vw;
     color: #302b2c;
 }
 .ProfessoraText{
@@ -34,8 +38,9 @@ color: #302b2c;
 }
 .mainTitle p{
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
     width: 90%;
+    font-weight: 200;
     color: white;
 }
 
@@ -46,15 +51,22 @@ color: #302b2c;
     .ProfessoraTitle h3{
         font-family: 'Adobe';
         font-size: 120px;
+        font-weight: 500;
         color: #302b2c;
     }   
+    .ProfessoraTitle h4{
+        font-size: 25PX;
+    }
     .mainTitle p{
         margin-top: 30px;
         text-align: center;
-        font-size: 20px;
-        width: 80%;
+        font-size: 25px;
+        font-weight: 250;
+        margin: -65px auto 0px auto;
+        width: 75%;
         color: white;
     }
+    
 }
 @media screen and (min-width:850px) and (max-width:1024px){
     .mainSession{
@@ -92,6 +104,7 @@ color: #302b2c;
         margin-top: 30px;
         color: white;
         text-align: center;
+        font-weight: 200;
         font-size: 30px;
     }
     .ProfessoraTextResponsive{
@@ -144,6 +157,7 @@ color: #302b2c;
         margin-top: 30px;
         color: white;
         text-align: center;
+        font-weight: 250;
         font-size: 30px;
     }
     .ProfessoraTextResponsive{
@@ -198,6 +212,7 @@ color: #302b2c;
     .responsiveText{
         margin-top: 30px;
         color: white;
+        font-weight: 250;
         text-align: center;
         font-size: 30px;
     }
@@ -243,7 +258,7 @@ color: #302b2c;
     }
     .mainSessionResponsiveContainer{
         width: 90%;
-        margin-top: 0px;
+        margin-top: 25vw;
     }
 }
 

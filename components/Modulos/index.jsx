@@ -1,8 +1,14 @@
 import styles from '@/styles/components/Modulos/Modulos.module.css'
 import Link from 'next/link'
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
+
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import "animate.css"
+
+
 export default function Modulos() {
-    const [selectedModule, setSelectedModule] = useState(null);
+    const [selectedModule, setSelectedModule] = useState(0);
     const contentRefs = useRef([]).current;
   
     useEffect(() => {
@@ -22,11 +28,11 @@ export default function Modulos() {
   
     const modules = [
       { title: 'Quadril Solto', 
-      Modules: ['-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.', 'Neste módulo você irá trabalhar movimentações para deixar o seu quadril mais leve e solto, liberando o líquido sinovial das suas articulações, permitindo que fiquem mais dispostas para os treinos. '] },
+      Modules: ['Neste módulo você irá trabalhar movimentações para deixar o seu quadril mais leve e solto, liberando o líquido sinovial das suas articulações, permitindo que fiquem mais dispostas para os treinos. ', '-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.'] },
       { title: 'Principais Movimentações',
-      Modules: ['-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.', 'Nesse módulo você irá fazer os isolamentos das duas principais movimentações de encaixe do twerk, criando a consciência corporal necessária para soltar o quadril e deixar sua movimentação mais fluida!']},
-      { title: 'Principais Movimentações',
-      Modules: ['-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.', 'No último módulo vamos trabalhar um pouco do que você quer passar na sua dança e qual tipo de intenção você quer colocar nas execuções dos passos. Também aprenderá sobre a amplitude em que irá executar os movimentos, de modo a deixar a sua dança mais próxima da sua zona de conforto e da melhor representação da sua personalidade.'] },
+      Modules: ['Nesse módulo você irá fazer os isolamentos das duas principais movimentações de encaixe do twerk, criando a consciência corporal necessária para soltar o quadril e deixar sua movimentação mais fluida!', '-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.']},
+      { title: 'Intenção e amplitude: hora de dançar ',
+      Modules: ['No último módulo vamos trabalhar um pouco do que você quer passar na sua dança e qual tipo de intenção você quer colocar nas execuções dos passos. Também aprenderá sobre a amplitude em que irá executar os movimentos, de modo a deixar a sua dança mais próxima da sua zona de conforto e da melhor representação da sua personalidade.', '-Dicas para soltar o quadril.','-Isolamento de quadril.','-Encaixe lateral e frontal.', '-Rotação completa.', '-Dicas adicionais.'] },
        ];
   
   
@@ -34,12 +40,13 @@ export default function Modulos() {
   
   return (
     <>    
-        <section className={styles.MainModules}>
+        <section className={styles.MainModules} id="mainConteudo">
             <div className={styles.MainModulesContainer}>
                 <h2>o que você vai <span>APRENDER?</span></h2>
                 <div className={styles.ModulosHereContent}>
 
                     <div className={styles.acorddeoncardshere}>
+                      <ScrollAnimation animateIn="animate__fadeInDown" >
                         <figure>
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +64,8 @@ export default function Modulos() {
                             <p>Total de</p>
                             <h4>16 AULAS</h4>
                         </figure>
+                      </ScrollAnimation>
+                      <ScrollAnimation animateIn="animate__fadeInDown" >
                         <figure>
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +83,7 @@ export default function Modulos() {
                             <p>Carga horária</p>
                             <h4>3 HORAS</h4>
                         </figure>
+                        </ScrollAnimation>
                     </div>
                     <div className={styles.acordderonHere}>
                         <svg
@@ -121,7 +131,7 @@ export default function Modulos() {
                             </div>
                         );
                         })}
-                        <Link href="">
+                        <Link href="/FormCurso">
                             <div className={styles.moduleConvert}>
                                 <h2>É GRATUITO! CLIQUE E DESTRAVE ESSA RABA!</h2>
                             </div>

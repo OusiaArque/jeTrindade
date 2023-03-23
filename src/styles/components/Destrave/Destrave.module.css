@@ -70,6 +70,7 @@
 }
 .cardsIcontsContainer figure P{
     height: 90px;
+    font-size: 20px;
 }
 
 
@@ -84,7 +85,8 @@
     background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
 }
 
-.DestraveConvertSectionMain:hover h2{
+
+.DestraveConvertSectionMainContainer:hover h2{
     color: white;
 }
 .DestraveConvertSectionMainContainer{

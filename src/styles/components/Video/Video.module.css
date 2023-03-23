@@ -1,0 +1,336 @@
+
+.VideoMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    position: relative;
+    justify-content: center;
+
+    height: 950px;
+
+}
+.VideoMainContainer{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    max-width: 1250px;
+}
+.VideoMainContainer h2{
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    color: #302b2c;
+}
+.VideoMainContainer h2 span{
+    color: #ff974e;
+}
+
+.VideoMainContainer iframe{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 800px;
+    height: 480px;
+
+
+    margin-bottom: 150px;
+}
+.videoBG{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    max-width: 1350px;
+}
+
+
+.MainConvertVideo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+    background-size: auto;
+    height:450px;
+    background-repeat: repeat-x;
+    background-position: center;
+    flex-direction: column;
+    margin-top: -140px;
+    justify-content: center;
+}
+
+.MainConvertVideoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1350px;
+}
+
+
+.MainConvertVideoContainer h2{
+    text-align: center;
+    color: #302b2c;
+    font-size: 90px;
+}
+
+.MainConvertVideoContainer h2:hover{
+    color: white;
+}
+
+.MainConvertVideoContainer h2 span{
+    color: #eb2273;
+    font-size: 40px;
+    
+}
+
+
+
+@media screen and (min-width:850px) and (max-width:1024px){
+
+    .VideoMainContainer h2{
+        margin-top: 30px;
+        font-size: 60px;
+        text-align: center;
+        color: #302b2c;
+    }
+    .VideoMainContainer h2 span{
+        color: #ff974e;
+    }
+
+
+
+    .MainConvertVideo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+        background-size: auto;
+        height:450px;
+        background-repeat: repeat-x;
+        background-position: center;
+        flex-direction: column;
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .MainConvertVideoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 1350px;
+    }
+    
+    
+    .MainConvertVideoContainer h2{
+        text-align: center;
+        color: #302b2c;
+        text-align: center;
+        line-height: 100%;
+        font-size: 90px;
+    }
+    
+    .MainConvertVideoContainer h2:hover{
+        color: white;
+    }
+    
+    .MainConvertVideoContainer h2 span{
+        color: #eb2273;
+        line-height: 100%;
+        font-size: 40px;
+        
+    }  
+}
+
+
+
+
+@media screen and (min-width:550px) and (max-width:850px){
+    .VideoMain{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        position: relative;
+        justify-content: center;
+    
+        height: 1000px;
+    
+    }
+    .videoBG{
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        max-width: 1350px;
+        width: 130%;
+    }
+    
+    .VideoMainContainer h2{
+        margin-top: 30px;
+        font-size: 60px;
+    max-width: 90%;
+        text-align: center;
+        color: #302b2c;
+    }
+    .VideoMainContainer h2 span{
+        color: #ff974e;
+    }
+
+
+
+    .MainConvertVideo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+        background-size: auto;
+        height:450px;
+        background-repeat: repeat-x;
+        background-position: center;
+        flex-direction: column;
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .MainConvertVideoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 1350px;
+    }
+    
+    
+    .MainConvertVideoContainer h2{
+        text-align: center;
+        color: #302b2c;
+        line-height: 100%;
+        margin: 0 auto;
+        max-width: 90%;
+        font-size: 80px;
+    }
+    
+    .MainConvertVideoContainer h2:hover{
+        color: white;
+    }
+    
+    .MainConvertVideoContainer h2 span{
+        color: #eb2273;
+        line-height: 100%;
+        font-size: 30px;
+        
+    }  
+
+
+
+    .VideoMainContainer iframe{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        max-width: 800px;
+        height: 400px;
+    
+    
+        margin-bottom: 150px;
+    }
+
+
+}
+
+
+@media screen and (min-width:280px) and (max-width:550px){
+    .VideoMain{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+        position: relative;
+        justify-content: center;
+    
+        height: 120vw;
+    
+    }
+    .videoBG{
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        max-width: 1350px;
+        width: 130%;
+    }
+    
+    .VideoMainContainer h2{
+        margin-top: 3vw;
+        font-size: 8vw;
+    max-width: 90%;
+        text-align: center;
+        color: #302b2c;
+    }
+    .VideoMainContainer h2 span{
+        color: #ff974e;
+    }
+
+
+
+    .MainConvertVideo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-image: url('https://baldoo.com.br/API/imageAPI/jessica/footerbg.webp');
+        background-size: cover;
+        height:75vw;
+        background-repeat: repeat-x;
+        background-position: center;
+        flex-direction: column;
+        margin-top: -100px;
+        justify-content: center;
+    }
+    .MainConvertVideoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 1350px;
+    }
+    
+    
+    .MainConvertVideoContainer h2{
+        text-align: center;
+        color: #302b2c;
+        line-height: 100%;
+        margin: 0 auto;
+        max-width: 90%;
+        font-size: 13vw;
+    }
+    
+    .MainConvertVideoContainer h2:hover{
+        color: white;
+    }
+    
+    .MainConvertVideoContainer h2 span{
+        color: #eb2273;
+        line-height: 100%;
+        font-size: 5vw;
+        
+    }  
+
+
+
+    .VideoMainContainer iframe{
+        position: absolute;
+        bottom: 0;
+        width: 90vw;
+        max-width: 800px;
+        height: 60vw;
+    
+    
+        margin-bottom: 25vw;
+    }
+
+
+}

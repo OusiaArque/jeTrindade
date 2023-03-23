@@ -1,10 +1,18 @@
 import styles from '@/styles/components/Professora/Professora.module.css'
 import Link from 'next/link'
+import { useState, useRef, useEffect } from 'react';
+
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import "animate.css"
 export default function Professora() {
+
+
+
 
   return (
     <>    
-      <article className={styles.mainSession}>
+      <article className={styles.mainSession} id="mainProfessora">
         <div className={styles.mainSessionContainer}>
             <div className={styles.ProfessoraText}>
                 <div className={styles.ProfessoraTitle}>
@@ -21,11 +29,12 @@ export default function Professora() {
                     </p>
                 </div>
             </div> 
-            <img src="https://baldoo.com.br/API/imageAPI/jessica/professora.webp" alt="" />
-           
+            <ScrollAnimation animateIn="animate__fadeInRight"  >                  
+              <img  src="https://baldoo.com.br/API/imageAPI/jessica/professora.webp" alt="Professora Jé Trindade Twerk Academy" />
+            </ScrollAnimation>
         </div>
       </article>
-      <article className={styles.mainSessionResponsive}>
+      <article className={styles.mainSessionResponsive} id="mainProfessora">
         <div className={styles.mainSessionResponsiveContainer}>
             <div className={styles.ProfessoraTextResponsive}>
                 <div className={styles.ProfessoraTitleResponsive}>
@@ -41,7 +50,7 @@ export default function Professora() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
                     </p>
                 </div>
-                <img src="https://baldoo.com.br/API/imageAPI/jessica/professora.webp" alt="" />
+                <img   src="https://baldoo.com.br/API/imageAPI/jessica/professora.webp" alt="Professora Jé Trindade Twerk Academy" />
            
             </div> 
         </div>

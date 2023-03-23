@@ -1,12 +1,38 @@
 import styles from '@/styles/components/Sobre/Sobre.module.css'
 import Link from 'next/link'
-export default function Sobre() {
+import { useState, useRef, useEffect } from 'react';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+import "animate.css"
+
+export default function Sobre() {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const elementRef = useRef(null);
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setIsIntersecting(true)
+        } else {
+          setIsIntersecting(false)
+        }
+      });
+    });
+    observer.observe(elementRef.current);
+    return () => observer.disconnect();
+  }, []);
   return (
-    <>    
-        <section className={styles.SobreMain}>
+    <>  
+
+    <ScrollAnimation animateIn="animate__fadeIn" >
+
+
+        <section className={styles.SobreMain} id="mainCurso">
             <div className={styles.SobreMainContainer}>
+            
                 <div className={styles.textSobre}>
+                  <ScrollAnimation animateIn="animate__fadeInRight" >
                     <h3>SOBRE O CURSO</h3>
                     <h2>CLASS SHAKE</h2>
                     <br />
@@ -14,11 +40,17 @@ export default function Sobre() {
                     </p>
                     <br />
                     <p>Nele você aprenderá o essencial para dar início a essa nova trajetória de sua vida, despertando o seu quadril e mostrando que todos os corpos são capazes de praticar as danças pélvicas!
-                    </p>
+                    </p> 
+                    </ScrollAnimation>
                 </div>
+               
             </div>
         </section>
-        <section className={styles.SobreMainResponsive}>
+  
+    </ScrollAnimation>
+
+
+        <section className={styles.SobreMainResponsive} id="mainCurso">
           <div className={styles.SobreMainResponsiveCotainer}>
             <h3>SOBRE O CURSO</h3>
             <h2>CLASS SHAKE</h2>
@@ -32,7 +64,7 @@ export default function Sobre() {
               Nele você aprenderá o essencial para dar início a essa nova trajetória de sua vida, despertando o seu quadril e mostrando que todos os corpos são capazes de praticar as danças pélvicas! 
             </p>
             <br />
-            <img className={styles.responsiveTeacher} src="https://baldoo.com.br/API/imageAPI/jessica/teacherAbout.webp" alt="" />
+            <img ref={elementRef} className={`${styles.responsiveTeacher} ${isIntersecting ? 'comMargem' : 'semMargem'}`}  src="https://baldoo.com.br/API/imageAPI/jessica/teacherAbout.webp" alt="Professora Jé Trindade Twerk Academy" />
           </div>
         </section>
     </>

@@ -13,7 +13,7 @@ export default function Footer() {
            
               <ul>
                   <div className={styles.DivOne}>
-                      <Link href="">
+                      <Link href="#top" scroll={false}>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -30,7 +30,7 @@ export default function Footer() {
                         </svg>
                       </Link>
                       <div className={styles.LinksFooter}> 
-                        <Link href="">
+                        <Link href="https://www.instagram.com/jetrindadeoficial/" target="_blank" rel="noreferrer">
                           
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function Footer() {
                           
                           
                         </Link>
-                        <Link href="">
+                        <Link href="https://www.tiktok.com/@jee.trindade">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -65,7 +65,7 @@ export default function Footer() {
                             ></image>
                           </svg>
                         </Link>
-                        <Link href="">
+                        <Link href="https://pt-br.facebook.com/je.trindaade/" target="_blank" rel="noreferrer">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -85,12 +85,12 @@ export default function Footer() {
                   </div>
                   <div className={styles.linksForFooter}>
                     
-                      <li><Link href=""><h6>Voltar ao <span>TOPO</span></h6></Link></li>
-                      <li><Link href=""><h6>A <span>PROFESSORA</span></h6></Link></li>
-                      <li><Link href=""><h6>Sobre o <span>CURSO</span></h6></Link></li>
-                      <li><Link href=""><h6>O <span>CONTEÚDO</span></h6></Link></li>
-                      <li><Link href=""><h6>Twerk <span>ACADEMY</span> </h6></Link></li>
-                      <li><Link href=""><h6>Tire as <span>DÚVIDAS</span> </h6></Link></li>
+                      <li><Link href="#top" scroll={false}><h6>Voltar ao <span>TOPO</span></h6></Link></li>
+                      <li><Link href="#mainProfessora" scroll={false}><h6>A <span>PROFESSORA</span></h6></Link></li>
+                      <li><Link href="#mainCurso" scroll={false}><h6>Sobre o <span>CURSO</span></h6></Link></li>
+                      <li><Link href="#mainConteudo" scroll={false}><h6>O <span>CONTEÚDO</span></h6></Link></li>
+                      <li><Link href="#Video" scroll={false}><h6>Twerk <span>ACADEMY</span> </h6></Link></li>
+                      <li><Link href="#mainDuvidas" scroll={false}><h6>Tire as <span>DÚVIDAS</span> </h6></Link></li>
                   </div>
               </ul>
           
@@ -98,9 +98,9 @@ export default function Footer() {
       </footer>
       <div className={styles.posfooter}>
         <h6>Todos os direitos reservados TWERK ACADEMY 2022. </h6>
-            <Link href="">
-              <img src="https://baldoo.com.br/API/imageAPI/jessica/lablogo.webp" alt="" />
-            </Link>
+            <a href="https://www.arquelab.com.br/" target="_blank" rel="noreferrer">
+              <img src="https://baldoo.com.br/API/imageAPI/jessica/lablogo.webp" alt="Arqué Lab" />
+            </a>
       </div>
     </>
   )

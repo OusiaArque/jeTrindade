@@ -11,6 +11,7 @@
 }
 .SobreMainContainer{
     width: 90%;
+    overflow: hidden;
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -35,6 +36,7 @@
 .textSobre p{
     color: white;
     font-size: 1.5vw;
+    font-weight: 250;
     font-family: 'Alexandria';
 }
 
@@ -59,6 +61,7 @@
      .textSobre p{
         color: white;
         font-size: 20px;
+        font-weight: 250;
         font-family: 'Alexandria';
     }
     
@@ -129,7 +132,7 @@
         display: flex;
         align-items: center;
         background-image: url('https://baldoo.com.br/API/imageAPI/jessica/bgaboutMain.webp');
-        background-size: auto;
+        background-size: 200%;
         width: 100%;
         background-repeat: no-repeat;
         display: flex;
@@ -138,7 +141,7 @@
     }
     .SobreMainResponsiveCotainer{
         width: 90%;
-        height: 1650px;
+        height: 300vw;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -147,8 +150,9 @@
         justify-content: flex-start;
     }
     .SobreMainResponsiveCotainer h3{
-        margin-top: 300px;
+        margin-top: 50vw;
         color: white;
+        
         font-size: 40px;
         line-height: 100%;
     }
@@ -159,7 +163,8 @@
     }
     .SobreMainResponsiveCotainer p{
         color: white;
-        font-size: 30px;
+        font-size: 6vw;
+        font-weight: 250;
         text-align: justify;
     }
     .responsiveTeacher{
@@ -211,6 +216,7 @@
     .SobreMainResponsiveCotainer p{
         color: white;
         font-size: 5vw;
+        font-weight: 250;
         text-align: justify;
     }
     .responsiveTeacher{

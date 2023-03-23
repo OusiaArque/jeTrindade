@@ -25,11 +25,14 @@
 }
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
+
 }
 html,
 body {
   max-width: 100%;
   display: flex;
+  scroll-behavior: smooth;
   font-family: 'alexandria';
   align-items: flex-start;
   justify-content: center;
@@ -48,10 +51,9 @@ body::-webkit-scrollbar-thumb {
 body{
   width: 100%;
   background-size: auto;
-
+  background-attachment: fixed;
   background-position: center;
   scroll-behavior: smooth;
-  transition: all 500ms;
   background-image: url('../../public/mainBg.webp');
 }
 
@@ -66,4 +68,56 @@ text-decoration: none;
 }
 .no-scroll {
   overflow: hidden!important;
+}
+.semMargem{
+  margin-left: -300px;
+  transition: all 1000ms;
+  opacity: 0;
+}
+.comMargem{
+  margin-left: 0px;
+  transition: all 1000ms;
+  opacity: 1;
+}
+
+.semMargemr{
+  margin-right: -300px;
+  transition: all 1000ms;
+  opacity: 0;
+}
+.comMargemr{
+  margin-right: 0px;
+  transition: all 1000ms;
+  opacity: 1;
+}
+
+
+.cardHere{
+  animation-delay:0.1s;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+
+}
+.noCardHere{
+  opacity: 0!important;
+
+}
+
+.cardHere2{
+  animation-delay:0.2s;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+
+}
+.noCardHere2{
+  opacity: 0;
+}
+.cardHere3{
+  animation-delay:0.3s;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+}
+.noCardHere3{
+  opacity: 0;
+
 }
